@@ -1,36 +1,39 @@
 body {
-    margin: 0;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
- 
-
-}
-
-.container2 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 5%;
-    grid-auto-columns: auto;    
-}
-
-
-.box1 {
-    background-color: yellow;
+    background: #fd0;
     
-
 }
 
-.box2 {
-    background-color: rgb(255, 0, 212);
-
+.carousel {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.box3 {
-    background-color: rgb(255, 0, 76);
-
+.AlterarSenha {
+    margin-top: 20px;
+    font-size: 14pt;
 }
 
+.CadastrarMe {
+    margin-top: 6px;
+    font-size: 14pt;
+}
+
+#submit {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+
+.box-btn-login {
+    width: 100%;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #d39e00;
+    box-shadow: 0 0 0 0.2rem #d39e00;
+}
